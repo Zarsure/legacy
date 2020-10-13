@@ -1,0 +1,28 @@
+.content .swiper-wrapper>>>.swiper-container {
+   overflow-y: visible !important;
+}
+
+.pagination-swiper {
+   z-index: 9999999;
+   position: absolute;
+   left: 0;
+   display: block;
+   width: 100%;
+   bottom: 0;
+   @include distance0;
+
+   &>>>.bullet {
+      background-color: invert(rgba(255, 202, 69, 0.3));
+      margin: 0 1.067vw;
+      width: 1.6vw;
+      border-radius: 0.8vw;
+      display: inline-block;
+      height: 1.6vw;
+
+      &.bullet-active {
+         background-color: $color-main;
+         width: 4.267VW;
+      }
+
+   }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>leftbar_ic_business</title>
+    <desc>Created with Sketch.</desc>
+    <g id="切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01---导航栏" transform="translate(-275.000000, -75.000000)" fill-rule="nonzero">
+            <g id="分组-15" transform="translate(275.000000, 75.000000)">
+                <circle id="椭圆形" stroke="#154E9B" stroke-width="2" fill="#FFFFFF" cx="8" cy="8" r="2"></circle>
+                <circle id="椭圆形-copy-2" stroke="#154E9B" stroke-width="2" fill="#FFFFFF" cx="18" cy="8" r="2"></circle>
+                <path d="M8,12 L8,12 C9.65685425,12 11,13.3431458 11,15 L11,21 C11,21.5522847 10.5522847,22 10,22 L6,22 C5.44771525,22 5,21.5522847 5,21 L5,15 C5,13.3431458 6.34314575,12 8,12 Z" id="矩形" stroke="#154E9B" stroke-width="2" fill="#008EFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M18,12 L18,12 C19.6568542,12 21,13.3431458 21,15 L21,21 C21,21.5522847 20.5522847,22 20,22 L16,22 C15.4477153,22 15,21.5522847 15,21 L15,15 C15,13.3431458 16.3431458,12 18,12 Z" id="矩形-copy-4" stroke="#154E9B" stroke-width="2" fill="#008EFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                <rect id="leftbar_ic_business" x="0" y="0" width="28" height="28"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

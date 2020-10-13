@@ -1,0 +1,56 @@
+@import "~@/themes/normal.scss";
+@import "~@/themes/dark.scss";
+
+$color-main: var(--color-main);
+$white: var(--white);
+$black: var(--black);
+$bg-noactive: var(--bg-noactive);
+$color-text-content: var(--color-text-content);
+$color-blue-grey: var(--color-blue-grey);
+$color-yellow-grey: var(--color-yellow-grey);
+$color-blue-dark: var(--color-blue-dark);
+$color-blue-black: var(--color-blue-black);
+$color-FAQ: var(--color-FAQ);
+$color-hr: var(--color-hr);
+$color-value: var(--color-value);
+$bg-wrapper: var(--bg-wrapper);
+$bg-header_tabs: var(--bg-header_tabs);
+$bg-active: var(--bg-active);
+$bg-popup: var(--bg-popup);
+$color-title-app: var(--color-title-app);
+$color-app-name-pro: var(--color-app-name-pro);
+$border-color-end: var(--border-color-end);
+$bg-page-more: var(--bg-page-more);
+$color-help: var(--color-help);
+$bg-rank: var(--bg-rank);
+$color-index-rank: var(--color-index-rank);
+$color-point-rank: var(--color-point-rank);
+$bg-category-rank: var(--bg-category-rank);
+$secondary-about: var(--secondary-about);
+$white-a6: var(--white-a6);
+$color-footer: var(--color-footer);
+$color-col: var(--color-col);
+
+$black-a1: var(--black-a1);
+$black-a3: var(--black-a3);
+$black-a8: var(--black-a8);
+$black-a08: var(--black-a08);
+
+@mixin distance0 {
+   margin: 0;
+   padding: 0;
+}
+
+@mixin text-truncate($count: -1) {
+   overflow: hidden;
+   text-overflow: ellipsis;
+
+   @if ($count==-1 or $count==1) {
+      white-space: nowrap;
+   }
+
+   @if ($count !=-1) {
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: $count;
+   }
+}
