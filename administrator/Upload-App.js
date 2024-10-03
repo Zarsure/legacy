@@ -123,7 +123,7 @@ const UploadApp = {
 						</tr>
 						<tr class="border-0">
 							<td class="text-secondary border-0"> Developer </td>
-							<td class="border-0 text-bold"><input class="appea-none" v-model=infor.developer /></td>
+							<td class="border-0 text-bold"><input value="iOSSupport" class="appea-none" v-model=infor.developer /></td>
 						</tr>
 						<tr class="border-0">
 							<td class="text-secondary border-0"> Category </td>
