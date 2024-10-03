@@ -225,7 +225,7 @@ Status Uploading: {{ status }}
     data() {
 		return {
 			name: "",
-			package: "",
+			package: "tk.iossupport.",
 			icon: null,
 			iconbase: null,
 			size: "",
