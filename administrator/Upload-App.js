@@ -116,14 +116,14 @@ const UploadApp = {
 							<td class="text-secondary border-0"> Package id </td>
 							<td class="border-0 text-bold">
 
-<input class="appea-none" value="tk.iossupport." v-model=package />
+<input class="appea-none" v-model=package />
 
 <button class="btn btn-sm btn-dark" @click="getInforInDB">Get</button>
 							</td>
 						</tr>
 						<tr class="border-0">
 							<td class="text-secondary border-0"> Developer </td>
-							<td class="border-0 text-bold"><input class="appea-none" value="iOSSupport" v-model=infor.developer /></td>
+							<td class="border-0 text-bold"><input class="appea-none" v-model=infor.developer /></td>
 						</tr>
 						<tr class="border-0">
 							<td class="text-secondary border-0"> Category </td>
@@ -135,7 +135,7 @@ const UploadApp = {
 						</tr>
 						<tr class="border-0">
 							<td class="text-secondary border-0"> Languages </td>
-							<td class="border-0 text-bold"><input class="appea-none" value="Multi Language" v-model=infor.languages /></td>
+							<td class="border-0 text-bold"><input class="appea-none" v-model=infor.languages /></td>
 						</tr>
 					</table>
 				</div>
