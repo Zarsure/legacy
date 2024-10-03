@@ -116,7 +116,7 @@ const UploadApp = {
 							<td class="text-secondary border-0"> Package id </td>
 							<td class="border-0 text-bold">
 
-<input class="appea-none" v-model=package />
+<input class="appea-none" value="1234567890" v-model=package />
 
 <button class="btn btn-sm btn-dark" @click="getInforInDB">Get</button>
 							</td>
@@ -225,7 +225,7 @@ Status Uploading: {{ status }}
     data() {
 		return {
 			name: "",
-			package: "tk.iossupport.",
+			package: "",
 			icon: null,
 			iconbase: null,
 			size: "",
